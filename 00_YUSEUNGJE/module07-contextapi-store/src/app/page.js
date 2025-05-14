@@ -14,6 +14,19 @@ export default function Home() {
           <Link href='/chap01/section02'>context api</Link>
         </li>
       </ul>
+      <h3>chap02 - context api 사용법</h3>
+      <ul>
+        <li>
+          <Link href='/chap02'>context api 사용법</Link>
+        </li>
+      </ul>
+
+      <h3>chap03 - context api 사용법</h3>
+      <ul>
+        <li>
+          <Link href='/chap03'>context api 사용법2</Link>
+        </li>
+      </ul>
     </>
   );
 }

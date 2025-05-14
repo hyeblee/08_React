@@ -13,6 +13,7 @@
 "use client";
 
 import { createContext, useState } from "react";
+import ContextParent from "./ContextParent";
 
 // 전역 상태관리를 위한 Context 생성
 const UserContext = createContext();
@@ -40,3 +41,5 @@ function ContextGrandparent() {
 }
 
 export default ContextGrandparent;
+// 컨텍스트 객체를 내보내서 다른 컴포넌트에서 사용할 수 있도록 처리
+export { UserContext };
